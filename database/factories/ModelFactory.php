@@ -11,7 +11,7 @@
 |
 */
 
-$factory->define(Bayusa\User::class, function (Faker\Generator $faker) {
+$factory->define(bayusa\User::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->safeEmail,

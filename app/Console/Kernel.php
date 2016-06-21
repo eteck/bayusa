@@ -1,6 +1,6 @@
 <?php
 
-namespace Bayusa\Console;
+namespace bayusa\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

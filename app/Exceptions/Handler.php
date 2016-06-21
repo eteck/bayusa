@@ -1,6 +1,6 @@
 <?php
 
-namespace Bayusa\Exceptions;
+namespace bayusa\Exceptions;
 
 use Exception;
 use Illuminate\Validation\ValidationException;

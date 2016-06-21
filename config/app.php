@@ -153,10 +153,10 @@ return [
         /*
          * Application Service Providers...
          */
-        Bayusa\Providers\AppServiceProvider::class,
-        Bayusa\Providers\AuthServiceProvider::class,
-        Bayusa\Providers\EventServiceProvider::class,
-        Bayusa\Providers\RouteServiceProvider::class,
+        bayusa\Providers\AppServiceProvider::class,
+        bayusa\Providers\AuthServiceProvider::class,
+        bayusa\Providers\EventServiceProvider::class,
+        bayusa\Providers\RouteServiceProvider::class,
 
     ],
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bayusa\Providers;
+namespace bayusa\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

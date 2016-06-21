@@ -1,6 +1,6 @@
 <?php
 
-namespace Bayusa\Http\Middleware;
+namespace bayusa\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

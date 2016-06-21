@@ -1,6 +1,6 @@
 <?php
 
-namespace Bayusa\Http\Middleware;
+namespace bayusa\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 

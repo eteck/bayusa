@@ -34,7 +34,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => Bayusa\User::class,
+        'model' => bayusa\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

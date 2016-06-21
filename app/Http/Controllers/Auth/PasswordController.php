@@ -1,8 +1,8 @@
 <?php
 
-namespace Bayusa\Http\Controllers\Auth;
+namespace bayusa\Http\Controllers\Auth;
 
-use Bayusa\Http\Controllers\Controller;
+use bayusa\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

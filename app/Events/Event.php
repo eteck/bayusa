@@ -1,6 +1,6 @@
 <?php
 
-namespace Bayusa\Events;
+namespace bayusa\Events;
 
 abstract class Event
 {

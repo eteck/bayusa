@@ -22,7 +22,7 @@
             "database"
         ],
         "psr-4": {
-            "Bayusa\\": "app/"
+            "bayusa\\": "app/"
         }
     },
     "autoload-dev": {

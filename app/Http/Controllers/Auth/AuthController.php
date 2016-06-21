@@ -1,10 +1,10 @@
 <?php
 
-namespace Bayusa\Http\Controllers\Auth;
+namespace bayusa\Http\Controllers\Auth;
 
-use Bayusa\User;
+use bayusa\User;
 use Validator;
-use Bayusa\Http\Controllers\Controller;
+use bayusa\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

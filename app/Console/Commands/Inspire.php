@@ -1,6 +1,6 @@
 <?php
 
-namespace Bayusa\Console\Commands;
+namespace bayusa\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

@@ -1,0 +1,370 @@
+body{
+  /**background: #199057;**/
+  position: relative; 
+  /**font-family: 'kalinga';**/
+  font-family: 'Verdana';
+  font-size: 16px;
+}
+
+a:hover, a:focus {
+    color: #000;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+/** navbar **/
+
+.navbar-bayusa {
+  /** background-color: #389874; Naranja **/ /**#389874**/
+  background-color: #389874;
+  border-color: #2C816D;
+  font-size: 15px;
+  font-family: 'Verdana';
+}
+.navbar-bayusa .navbar-brand {
+  color: #ffffff;
+}
+.navbar-bayusa .navbar-brand:hover,
+.navbar-bayusa .navbar-brand:focus {
+  color: #e6e6e6;
+  background-color: #2C816D;
+}
+.navbar-bayusa .navbar-text {
+  color: #ffffff;
+}
+.navbar-bayusa .navbar-nav > li:last-child > a {
+  border-right: 1px solid #2C816D;
+}
+.navbar-bayusa .navbar-nav > li > a {
+  color: #ffffff;
+  border-left: 1px solid #2C816D;
+}
+.navbar-bayusa .navbar-nav > li > a:hover,
+.navbar-bayusa .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #2C816D;
+}
+.navbar-bayusa .navbar-nav > .active > a,
+.navbar-bayusa .navbar-nav > .active > a:hover,
+.navbar-bayusa .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #2C816D;
+}
+.navbar-bayusa .navbar-nav > .disabled > a,
+.navbar-bayusa .navbar-nav > .disabled > a:hover,
+.navbar-bayusa .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: #2C816D;
+}
+.navbar-bayusa .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-bayusa .navbar-toggle:hover,
+.navbar-bayusa .navbar-toggle:focus {
+  background-color: #2C816D;
+}
+.navbar-bayusa .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-bayusa .navbar-collapse,
+.navbar-bayusa .navbar-form {
+  border-color: #2e7e60;
+}
+.navbar-bayusa .navbar-nav > .dropdown > a:hover .caret,
+.navbar-bayusa .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+.navbar-bayusa .navbar-nav > .open > a,
+.navbar-bayusa .navbar-nav > .open > a:hover,
+.navbar-bayusa .navbar-nav > .open > a:focus {
+  background-color: #2C816D;
+  color: #fff;
+}
+.navbar-bayusa .navbar-nav > .open > a .caret,
+.navbar-bayusa .navbar-nav > .open > a:hover .caret,
+.navbar-bayusa .navbar-nav > .open > a:focus .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+.navbar-bayusa .navbar-nav > .dropdown > a .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+@media (max-width: 767) {
+  .navbar-bayusa .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-bayusa .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-bayusa .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: #2C816D;
+  }
+  .navbar-bayusa .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-bayusa .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-bayusa .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #2C816D;
+  }
+  .navbar-bayusa .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-bayusa .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-bayusa .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: #2C816D;
+  }
+}
+.navbar-bayusa .navbar-link {
+  color: #ffffff;
+}
+.navbar-bayusa .navbar-link:hover {
+  color: #fff;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 10px 10px;
+    font-size: 19px;
+    line-height: 21px;
+    height: 60px;
+}
+
+.navbar-brand>img {
+    display: block;
+}
+
+.navbar-bayusa .navbar-brand {
+  background-color: #2C816D; 
+  color: white;
+}
+
+/**
+.navbar-brand{
+  color: #199057 !important;
+  font-size: 1em;
+}
+
+ul.nav.navbar-nav a{
+  color: #199057 !important;
+}
+**/
+
+/**
+.navbar-brand > img {
+    height: 29px;
+    width: auto;
+}**/
+
+/** Logo **/
+/**
+a.navbar-brand img{
+  width: 200px;
+  height: 42px;
+}
+**/
+
+/** Sección de Foter*/
+footer{
+  background-color: #268453;
+  color: #fff;
+}
+
+footer p{
+  text-align: justify;
+  font-size: 1em;
+}
+
+ul.redes li{
+  display: inline-block;
+}
+
+ul.redes a{
+  color: #199057 !important;
+}
+
+.avatar{
+  border: 5px solid #199057;
+  border-radius: 50%;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.titulo-logo{
+  font-family: 'Monotype Corsiva';
+}
+
+/**Products Panel **/
+
+#products {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.white-panel {
+  position: absolute;
+  background: white;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+  padding: 10px;
+}
+.white-panel h1 {
+  font-size: 1em;
+}
+.white-panel h1 a {
+  color: #A92733;
+}
+.white-panel:hover {
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  margin-top: -5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/** Slider **/
+
+.carousel-caption h3{
+  color:  #fdc500;
+  font-weight: bold;
+}
+
+.carousel-caption h2{
+  color:  #fdc500;
+  font-weight: bold;
+}
+
+.carousel-caption p{
+  color:  #ffea2b;
+  font-weight: bold;
+}
+
+.carousel-caption p>span{
+  color:  white;
+  font-weight: bold;
+}
+
+/** **/
+.jumbotron-bayusa{
+  font-family: 'Dancing Script', cursive;
+}
+
+/** Detalle del producto**/
+.product-block{
+  background: #fff;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+
+/** Shopping Cart **/
+
+.table-cart{
+  background: #fff;
+  border-radius: 1em;
+  margin-bottom: 30px;
+  padding: 1em;
+}
+
+.table-cart img{
+  width: 50px;
+}
+
+/* custom Buttom bayusa*/
+.btn-bayusa {
+    background: #389874;
+    color: #ffffff;
+}
+ 
+.btn-bayusa:hover, .btn-bayusa:focus, .btn-bayusa:active, .btn-bayusa.active, .open > .dropdown-toggle.btn-bayusa {
+    background: #55b692;
+    color: #ffffff;
+}
+ 
+.btn-bayusa:active, .btn-bayusa.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.page{
+  background: #fff;
+  border-radius: 1em;
+  margin: 1em;
+  min-height: 500px;
+  padding: 1em;
+}
+
+.icon-home{
+  color: #666;
+  font-size: 60px;
+  margin: 20px;
+}
+
+.btn-home-admin{
+  font-size: 25px;
+}
+
+.alert-success {
+    background-color: #389874;
+    border-color: #18bc9c;
+    color: #ffffff;
+}
+
+.footer-copy{
+  padding-top:10px;
+  background-color: #08422D;
+  color:#ffffff;
+}
+
+h1,h2,h3,h4{
+  color:#000;
+}
+
+footer>h5{
+  color:#fff;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #08422D;
+}
+
+.footer-bayusa{
+  padding-top:10px;
+  background-color: #08422D;
+  color:#ffffff;
+}
+
+.img-responsive{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top:0px;
+}

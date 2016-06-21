@@ -1,6 +1,6 @@
 <?php
 
-namespace Bayusa\Providers;
+namespace bayusa\Providers;
 
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Bayusa\Model' => 'Bayusa\Policies\ModelPolicy',
+        'bayusa\Model' => 'bayusa\Policies\ModelPolicy',
     ];
 
     /**
