@@ -14,8 +14,8 @@ class MenuController extends Controller
     public function menu(){
     	try{
     		$msg = "Succes";
-    		//$menu = Category::where('parent_id','=',0)->take(10)->get();
-            $menu = Category::where('parent_id','=',1)->orderBy('name','asc')->get();
+    		$menu = Category::where('parent_id','=',null)->take(10)->get();
+            //$menu = Category::where('parent_id','=',1)->orderBy('name','asc')->get();
             return Response::json(["msg"=>$msg,"menu"=>$menu->toArray()],200);
             //return view('store.categories_products');
     	}catch(\Exception $e){

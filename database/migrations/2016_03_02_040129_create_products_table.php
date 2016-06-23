@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->string('slug');
             $table->text('description');
             $table->string('stract',300);
+            $table->string('code');
             $table->integer('quantity')->unsigned();
             $table->integer('min_quantity')->unsigned();
             $table->decimal('price',5,2);

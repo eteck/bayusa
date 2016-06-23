@@ -15,8 +15,8 @@ class StoreController extends Controller
     public function index(){
       
       try{
-        //$products = Product::paginate(20);
-        $products = Product::all();
+        $products = Product::paginate(20);
+        //$products = Product::all();
       }catch(\Exception $e){
         //dd($e);
         $products = array();
