@@ -166,6 +166,7 @@ class PaypalController extends BaseController
 		$order = Order::create([
 			'subtotal' => $subtotal,
 			'shipping' => $shipping,
+            'type_order' => 'paypal',
 			'user_id' => \Auth::user()->id
 		]);
  

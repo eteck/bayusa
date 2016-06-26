@@ -115,7 +115,7 @@
                     
                     {!! Form::Label('Rol: ') !!}
                     {!! Form::select(
-                        'role',
+                        'role_id',
                         $roles,
                         null,
                         ['class'=>'form-control',

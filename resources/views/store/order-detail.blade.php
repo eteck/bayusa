@@ -62,7 +62,7 @@
 					<a href="{{ route('cart-show') }}" class="btn btn-primary">
 						<i class="fa fa-chevron-circle-left"> Regresar</i>
 					</a>
-					<a href="{{ route('cart-show') }}" class="btn btn-info">
+					<a href="{{ route('order-request') }}" class="btn btn-info">
 						<i class="fa fa-chevron-circle-right"> Solicitar Pedido</i>
 					</a>
 					<a href="{{ route('payment') }}" class="btn btn-warning">

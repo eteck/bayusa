@@ -24,7 +24,7 @@ class Product extends Model
     //Relación de categorias padre
     public function nestedComments()
     {
-        return $this->hasMany('bayusa\Category')->where('parent_id', 1);
+        return $this->hasMany('bayusa\Category')->where('parent_id', null);
     }
 
     // Relation with OrderItem

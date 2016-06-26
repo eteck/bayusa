@@ -99,6 +99,7 @@ class UserController extends Controller
     public function edit(User $user)
     {
         $roles = Role::orderBy('name')->lists('name','id');
+        //dd($roles);
         return view('admin.user.edit',compact('user','roles'));
     }
 
@@ -117,7 +118,7 @@ class UserController extends Controller
               'address' => 'required|max:555',
               'email' => 'required|email|max:255',
               'password' => $request['password'] != "" ? 'confirmed|min:6' : '',
-              'role' => 'required',
+              'role_id' => 'required',
             ]);
 
         $user->name = $request['name'];
@@ -125,7 +126,7 @@ class UserController extends Controller
         $user->address = $request['address'];
         $user->email = $request['email'];
         if($request['password'] != "") $user->password = $request['password'];
-        $user->role_id = $request['role'];
+        $user->role_id = $request['role_id'];
         $user->active = $request['active'] ? 1: 0;
 
         $updated = $user->save();

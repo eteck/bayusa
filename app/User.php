@@ -30,6 +30,6 @@ class User extends Authenticatable
     }
 
     public function role(){
-        return $his->hasOne('bayusa\Role');
+        return $this->hasOne('bayusa\Role');
     }
 }

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-orange')
 
 @section('content')
 <div class="container">
@@ -10,7 +10,7 @@
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
                         {!! csrf_field() !!}
                         
-                        <input type="hidden" name="role" value="store">
+                        <input type="hidden" name="role" value="2">
                         <input type="hidden" name="active" value="active">
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">

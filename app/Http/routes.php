@@ -47,12 +47,10 @@ Route::group(['middleware' => ['web']], function () {
 	});
 
 	Route::bind('user', function($user){
-	    //return bayusa\User::where('username',$user)->get();
 	    return bayusa\User::find($user);
 	});
 
     Route::bind('order', function($order){
-        //return bayusa\User::where('username',$user)->get();
         return bayusa\Order::find($order);
     });
 
@@ -120,6 +118,10 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('payment', [
     	'as' => 'payment',
     	'uses' => 'PaypalController@postPayment']);
+
+    Route::get('order-request', [
+        'as' => 'order-request',
+        'uses' => 'OrderController@orderRequest']);
 
     Route::get('payment/status', [
     	'as' => 'payment.status',
