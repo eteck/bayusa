@@ -8,7 +8,7 @@ class Order extends Model
 {
     protected $table = 'orders';
 
-    protected $fillable = ['subtotal','shipping','user_id','type_order','custom_label'];
+    protected $fillable = ['subtotal','shipping','user_id','type_order'];
 
     //Relacion de pediod por Usuario
     public function user(){

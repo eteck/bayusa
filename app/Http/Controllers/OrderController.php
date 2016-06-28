@@ -28,7 +28,7 @@ class OrderController extends Controller
  
 		$order = Order::create([
 			'subtotal' => $subtotal,
-			'shipping' => $shipping,
+			//'shipping' => $shipping,
 			'type_order' => 'pedido',
 			'custom_label' => '20 productos personalizados',
 			'user_id' => \Auth::user()->id
