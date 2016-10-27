@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     protected $table = 'products';
-	protected $fillable = ['id','name', 'slug', 'description', 'stract', 'quantity','min_quantity', 'price','image','visible','category_id'];
+	protected $fillable = ['id','code','name', 'slug', 'description', 'stract', 'quantity','min_quantity', 'price','image','visible','category_id'];
 
     public function setImageAttribute($image){
         $this->attributes['image'] = $this->id.'_'.$image->getClientOriginalName();

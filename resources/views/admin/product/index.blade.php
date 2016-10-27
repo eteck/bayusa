@@ -14,6 +14,7 @@
 		            	<tr>
 		                    <!--th>ID</th-->
 		                    <th>Imagen</th>
+		                    <th>Codigo</th>
 		                    <th>Nombre</th>
 		                    <!--th>Categoria</th>
 		                    <th>Slug</th>
@@ -34,6 +35,9 @@
 								</td-->
 								<td>
 									<img src="../recursos/img/products/{{ $product->image }}" width="40" alt="">
+								</td>
+								<td>
+									{{$product->code}}
 								</td>
 								<td>
 									{{$product->name}}

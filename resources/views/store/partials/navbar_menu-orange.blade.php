@@ -1,5 +1,5 @@
 <header>
-  <div class="container-fluid header-deving">
+  <div class="container-fluid header-bayusa">
     <div class="row">
       <img src="{{ asset('recursos/img/pleca-bayusa-orange.png') }}" style="max-height: 100px;" class="img-responsive">
     </div>
