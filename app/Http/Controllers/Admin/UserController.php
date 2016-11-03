@@ -125,7 +125,7 @@ class UserController extends Controller
         $user->last_name = $request['last_name'];
         $user->address = $request['address'];
         $user->email = $request['email'];
-        if($request['password'] != "") $user->password = $request['password'];
+        if($request['password'] != "") $user->password = bcrypt($request['password']);
         $user->role_id = $request['role_id'];
         $user->active = $request['active'] ? 1: 0;
 

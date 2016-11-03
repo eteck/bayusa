@@ -52,7 +52,7 @@
 								</td>
 								
 								<td>
-									{{$user->type}}
+									{{ $user->rol->name }}
 								</td>
 								
 								<td>

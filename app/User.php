@@ -29,7 +29,7 @@ class User extends Authenticatable
         return $this->hasMany('bayusa\Order');
     }
 
-    public function role(){
-        return $this->hasOne('bayusa\Role');
+    public function rol(){
+        return $this->hasOne('bayusa\Role','id','role_id');
     }
 }

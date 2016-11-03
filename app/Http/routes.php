@@ -131,7 +131,7 @@ Route::group(['middleware' => ['web']], function () {
     
 });
 
-Route::group(['namespace'=>'Admin','middleware'=>['web','auth'],'prefix'=>'admin'],function(){
+Route::group(['namespace'=>'Admin','middleware'=>['web','auth','role:admin'],'prefix'=>'admin'],function(){
 	
 
 	Route::get('/',[
